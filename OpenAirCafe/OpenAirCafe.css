@@ -1,0 +1,31 @@
+@import url('fontawesome-free-5.11.2-web/css/all.css');
+body {
+    background-image: url('images/2.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 180%;
+}
+.start {
+    color: snow;
+}
+
+.start img{
+    width:10%;
+    height:20%;
+    margin-left:45%;
+    margin-top:20%;
+}
+.txt {
+    margin-right: 25%;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-left: auto;
+}
+.button {
+    background-image: linear-gradient(to right,#9ba1ac, #232635) !important;
+    border-color: #647a98 !important;
+}
+    .button:hover {
+        background-image: linear-gradient(to right, #9ba1ac, #647a98)!important;
+        border-color: #647a98 !important;
+    }
+        

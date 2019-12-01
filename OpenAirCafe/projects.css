@@ -1,0 +1,122 @@
+﻿* {
+    max-width: 100%
+}
+body {
+    color: #e4f1ff;
+    background-color: #363e46;
+}
+.logo {
+    width: 170px !important;
+    height: 80px !important;
+}
+.logo2 {
+    width: 40% !important;
+    height: 48% !important;
+}
+.bg-light {
+    background-color: #515e6b !important;
+}
+ul li {
+    font-size: 150%;
+}
+.navbar-light .navbar-nav .nav-link, nav-item active {
+    font-size: 75%;
+    bottom: 20%;
+    color: azure;
+    font-family: 'Grenze', serif;
+}
+.btn-outline-success {
+    color: #eaacce;
+    background-color: transparent;
+    background-image: none;
+    border-color: #eaacce;
+}
+    .btn-outline-success:hover {
+        color: #fff;
+        background-color: #804b7a;
+        border-color: #804b7a;
+    }
+.container-fluid {
+    margin-bottom: 3%;
+}
+.projects {
+    margin-bottom: 0;
+}
+footer .container-fluid {
+    margin-bottom: 0%!important;
+}
+footer {
+    background-color: #333638;
+    width: 100%;
+    height: 30%;
+    position: relative;
+    font-family: "Font Awesome 5 brands";
+}
+    footer ol {
+        display: inline-block;
+    }
+
+        footer ol li {
+            display: inline-block;
+        }
+.ul2, .hf {
+    margin-top: 5%;
+}
+    .ul2 li {
+        font-size: 130%;
+        color: black;
+    }
+ol {
+    list-style-type: none;
+}
+a {
+    color: #eaacce;
+}
+    a:hover {
+        color: #804b7a;
+    }
+.banner {
+    width: 100%;
+    height: 50vh;
+    margin-top: 1%;
+    margin-bottom: 2%
+}
+    .banner img {
+        height: 50vh;
+        width: 100%;
+    }
+    h3{
+        color:black;
+    }
+.title1, .title2 {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 170%;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+    .title1::after, .title2::after {
+        content: "";
+        position: absolute;
+        bottom: -6px;
+        left: 50%;
+        height: 2px;
+        background-color:black;
+        transform: translateX(-50%);
+        
+    }
+
+    .title1::after {
+        width: 10%;
+    }
+    .title2::after {
+        width: 14%;
+    }
+.row .list-inline {
+    margin-left: 40%;
+}
+.projects img{
+    width:100%;
+    height:100%;
+}
